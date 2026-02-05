@@ -10,9 +10,9 @@ def calcular_grasa_corporal(imc, edad):
     grasa = 1.2 * imc + 0.23 * edad - 5.4
 
     return round(grasa, 2)
-    
+
 def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
->>>>>>> origin/master
+
     pass
 
 def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
