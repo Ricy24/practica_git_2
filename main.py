@@ -1,5 +1,6 @@
-# --- Calculadora de salud --
-
+"""
+Calculadora de Salud - Equipo
+"""
 
 def calcular_IMC(peso, altura):
     pass
