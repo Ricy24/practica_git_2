@@ -17,6 +17,32 @@ def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_activ
 
 def consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, valor_genero):
     pass
+def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
+    pass
+
+
+def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
+    pass
+
+
+def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_actividad): 
+    altura_cm = altura * 100
+    tmb = (10 * peso) + (6.25 * altura_cm) - (5 * edad) + valor_genero
+    resultado = tmb * valor_actividad
+    return float(resultado) 
+
+# --- Participacion usuario ---
+
+def consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, valor_genero):
+    altura_cm = altura * 100
+    tmb = (10 * peso) + (6.25 * altura_cm) - (5 * edad) + valor_genero
+    inferior = tmb * 0.80
+    superior = tmb * 0.85
+    
+
+    frase = "Para adelgazar es recomendado que consumas entre: " + str(inferior) + " y " + str(superior) + " calorías al día."
+    return frase
+
 
 # --- Participacion usuario ---
 
