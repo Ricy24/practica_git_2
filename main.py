@@ -5,7 +5,9 @@ def calcular_IMC(peso, altura):
     pass
 
 def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
-    pass
+    imc = peso / (altura ** 2)
+    gc = (1.2 * imc) + (0.23 * edad) - 5.4 - valor_genero
+    return gc
 
 def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
     pass
