@@ -12,14 +12,6 @@ def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
 def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
     pass
 
-def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_actividad):
-    pass
-
-def consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, valor_genero):
-    pass
-def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
-    pass
-
 
 def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
     pass
@@ -31,7 +23,6 @@ def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_activ
     resultado = tmb * valor_actividad
     return float(resultado) 
 
-# --- Participacion usuario ---
 
 def consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, valor_genero):
     altura_cm = altura * 100
