@@ -19,11 +19,6 @@ def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
     return round(tmb, 2)
     pass
 
-
-def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
-    pass
-
-
 def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_actividad): 
     altura_cm = altura * 100
     tmb = (10 * peso) + (6.25 * altura_cm) - (5 * edad) + valor_genero
