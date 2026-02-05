@@ -1,5 +1,6 @@
-# --- Calculadora de salud --
-
+"""
+Calculadora de Salud - Equipo
+"""
 
 def calcular_IMC(peso, altura):
     pass
@@ -10,6 +11,12 @@ def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
     return gc
 
 def calcular_calorias_en_reposo(peso, altura, edad, valor_genero):
+
+    altura_cm = altura * 100
+
+    tmb = 10 * peso + 6.25 * altura_cm - 5 * edad + valor_genero
+
+    return round(tmb, 2)
     pass
 
 def calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_actividad):
