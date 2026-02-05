@@ -4,15 +4,13 @@
 def calcular_IMC(peso, altura):
     pass
 
-<<<<<<< HEAD
-
 def calcular_grasa_corporal(imc, edad):
     """Calcula el porcentaje de grasa corporal"""
     
     grasa = 1.2 * imc + 0.23 * edad - 5.4
 
     return round(grasa, 2)
-=======
+    
 def calcular_porcentaje_grasa(peso, altura, edad, valor_genero):
 >>>>>>> origin/master
     pass
